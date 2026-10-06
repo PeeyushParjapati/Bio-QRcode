@@ -36,7 +36,7 @@ hr {
   width: 100%;
 }
 
-.qr-code {
+.qrcode {
   display: flex;
   justify-content: center;
   margin: 20px 0;
