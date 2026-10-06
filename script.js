@@ -1,5 +1,5 @@
 let qrEngine = new QRCode(document.getElementById(qr - code), {
-  text: "https://https://github.com/PeeyushParjapati/My-Bio-QR-CODE",
+  text: "https://github.com/PeeyushParjapati/My-Bio-QR-CODE",
   width: 128,
   height: 128,
 });
