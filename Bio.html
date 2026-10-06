@@ -1,0 +1,27 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Bio Qrcode</title>
+    <link rel="stylesheet" href="styles.css" />
+    <script src="script.js" defer></script>
+    <script src="http://cloudflare.com"></script>
+  </head>
+  <body>
+    <div class="header">
+      <div class="box">
+        <h1>QR Bio code Generator</h1>
+
+        <hr />
+        <div id="qr-code" class="qr-code"></div>
+        <input
+          type="text"
+          id="bioUrlInput"
+          placeholder="Paste your bio.html link here"
+          oninput="generateBioQR()"
+        />
+      </div>
+    </div>
+  </body>
+</html>
